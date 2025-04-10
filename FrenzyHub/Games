@@ -63,7 +63,7 @@ if allowedPlaceIds[currentPlaceId] and not hasExecutedBefore() and preventBypass
             warn("Failed to retrieve the Jetpack script")
         end
     elseif currentPlaceId == 70876832253163 then
-        local scriptContent = secureHttpGet("https://raw.githubusercontent.com/Legitxwx/Creator/refs/heads/main/FrenzyHub/Games")
+        local scriptContent = secureHttpGet("https://raw.githubusercontent.com/Legitxwx/Op/refs/heads/main/Dead%20rails")
         if scriptContent then
             loadstring(scriptContent)()
         else
